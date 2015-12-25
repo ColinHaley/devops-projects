@@ -27,6 +27,8 @@ yum -y install git
 git config credential.helper store
 git config --global credential.helper 'cache --timeout 7200'
 
+# Install tmux
+yum -y install tmux
 
 # Install Python
 yum -y install Python
