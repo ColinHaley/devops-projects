@@ -1,0 +1,5 @@
+---
+version: "1.9.1"
+tmp_directory: "/tmp/ansible_downloads"
+tmp_deb: "{{tmp_directory}}/vagrant_{{version}}.deb"
+tmp_rpm: "{{tmp_directory}}/vagrant_{{version}}.rpm"

@@ -1,0 +1,3 @@
+---
+deb_url: "https://releases.hashicorp.com/vagrant/{{version}}/vagrant_{{version}}_{{architecture}}.deb"
+rpm_url: "https://releases.hashicorp.com/vagrant/{{version}}/vagrant_{{version}}_{{architecture}}.rpm"

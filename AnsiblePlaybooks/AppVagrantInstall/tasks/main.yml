@@ -1,0 +1,9 @@
+---
+ - name: Create temp directory.
+   file: state=directory path={{tmp_directory}}
+ 
+ - include: Debian.yml
+   when: os_type == 'Debian'
+
+ - include: RedHat.yml
+   when: os_type == "RedHat"
