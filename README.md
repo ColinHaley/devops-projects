@@ -16,6 +16,8 @@
 
 Create scripts using Ansible and Bash to set up two Docker containers inside of a Vagrant VM. One container will contain a Jenkins installation. The second will run a nginx proxy to access Jenkins on the appropriate port. The Jenkins CLI port must be accessible from outside of the Docker containers. Afterwards, I will install a job that compiles a multi-tier application (Curl is a good candidate) using Jenkins, programatically, with a scripting library. Backup restore will not count. Then it must execute the newly compiled command.
 
+* Each step should determine if all prerequisites are installed prior to execution *
+
 1. Deploy Vagrant VM
 2. Create two Docker Containers within Vagrant VM
 3. Install Jenkins on VM#1
